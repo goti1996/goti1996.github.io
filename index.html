@@ -747,8 +747,8 @@
         </div>
         <div class="my-3">
           <div class="loading">Loading</div>
-          <div class="error-message">Enviado.</div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+          <div class="error-message"><?php isset($_POST["fs_ab1"]) ? print "Enviado!"; ?></div>
+        <!--  <div class="sent-message">Your message has been sent. Thank you!</div> -->
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
       </form>
